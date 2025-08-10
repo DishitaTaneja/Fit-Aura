@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitAura - Your Wellness, Your Aura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>FitAura</h1>
+            </div>
+            <p class="tagline">Transform Your Life, One Healthy Choice at a Time</p>
+            <div class="header-quote">
+                <p>"The greatest wealth is health."</p>
+              
+            </div>
+        </header>
+
+        <!-- Main Dashboard Grid -->
+        <main class="dashboard">
+            <!-- Fitness Tracker Section -->
+            <section class="card fitness-tracker">
+                <div class="card-header">
+                    <h2><i class="fas fa-dumbbell"></i> Fitness Tracker</h2>
+                    <p class="section-subtitle">Every step counts, every movement matters</p>
+                </div>
+                <div class="card-content">
+                    <div class="fitness-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">8,547</div>
+                            <div class="stat-label">Steps Today</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">45</div>
+                            <div class="stat-label">Active Minutes</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">3</div>
+                            <div class="stat-label">Workouts This Week</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="workout-suggestions">
+                        <h4>💪 Today's Power Move</h4>
+                        <p>"Strength does not come from the physical capacity. It comes from an indomitable will."</p>
+                        <div class="workout-plan">
+                            <span class="workout-type">HIIT Workout</span>
+                            <span class="workout-duration">30 min</span>
+                            <span class="workout-type">Yoga Flow</span>
+                            <span class="workout-duration">15 min</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hydration Monitor -->
+            <section class="card hydration-monitor">
+                <div class="card-header">
+                    <h2><i class="fas fa-tint"></i> Hydration Monitor</h2>
+                    <p class="section-subtitle">Hydrate your body, energize your soul</p>
+                </div>
+                <div class="card-content">
+                    <div class="water-bottles">
+                        <div class="water-bottle filled">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle filled">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle filled">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle filled">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle filled">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="water-bottle">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                    </div>
+                    <div class="hydration-stats">
+                        <div class="current-intake">5/8 glasses</div>
+                        <div class="goal">Goal: 2L daily</div>
+                        <div class="hydration-quote">
+                            <p>"Pure water is the world's first and foremost medicine."</p>
+                      
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Nutrition Overview -->
+            <section class="card nutrition-overview">
+                <div class="card-header">
+                    <h2><i class="fas fa-apple-alt"></i> Nutrition Overview</h2>
+                    <p class="section-subtitle">Nourish your body, fuel your dreams</p>
+                </div>
+                <div class="card-content">
+                    <div class="calorie-circle">
+                        <div class="circle-progress">
+                            <svg viewBox="0 0 36 36">
+                                <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="70, 100"/>
+                            </svg>
+                            <div class="calorie-text">
+                                <span class="calories">1,450</span>
+                                <span class="unit">kcal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nutrition-quote">
+                        <p>"Let food be thy medicine and medicine be thy food."</p>
+                  
+                    </div>
+                    <div class="nutrient-breakdown">
+                        <div class="nutrient">
+                            <span class="nutrient-name">Protein</span>
+                            <div class="nutrient-bar">
+                                <div class="nutrient-fill" style="width: 80%"></div>
+                            </div>
+                            <span class="nutrient-value">65g</span>
+                        </div>
+                        <div class="nutrient">
+                            <span class="nutrient-name">Carbs</span>
+                            <div class="nutrient-bar">
+                                <div class="nutrient-fill" style="width: 65%"></div>
+                            </div>
+                            <span class="nutrient-value">180g</span>
+                        </div>
+                        <div class="nutrient">
+                            <span class="nutrient-name">Fat</span>
+                            <div class="nutrient-bar">
+                                <div class="nutrient-fill" style="width: 45%"></div>
+                            </div>
+                            <span class="nutrient-value">45g</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sleep Patterns -->
+            <section class="card sleep-patterns">
+                <div class="card-header">
+                    <h2><i class="fas fa-moon"></i> Sleep Patterns</h2>
+                    <p class="section-subtitle">Rest well, dream big, wake up stronger</p>
+                </div>
+                <div class="card-content">
+                    <div class="sleep-chart">
+                        <div class="sleep-bar" style="height: 60%">
+                            <span class="sleep-hours">7.5h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 80%">
+                            <span class="sleep-hours">8.2h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 65%">
+                            <span class="sleep-hours">7.8h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 90%">
+                            <span class="sleep-hours">8.5h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 75%">
+                            <span class="sleep-hours">8.0h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 70%">
+                            <span class="sleep-hours">7.2h</span>
+                        </div>
+                        <div class="sleep-bar" style="height: 85%">
+                            <span class="sleep-hours">8.8h</span>
+                        </div>
+                    </div>
+                    <div class="sleep-labels">
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                        <span>Sun</span>
+                    </div>
+                    <div class="sleep-quality">
+                        <span class="quality-label">Sleep Quality:</span>
+                        <span class="quality-value">Excellent</span>
+                    </div>
+                    <div class="sleep-quote">
+                        <p>"Sleep is the best meditation."</p>
+                   
+                    </div>
+                </div>
+            </section>
+
+            <!-- Wellness Planner -->
+            <section class="card wellness-planner">
+                <div class="card-header">
+                    <h2><i class="fas fa-calendar-alt"></i> Wellness Planner</h2>
+                    <p class="section-subtitle">Plan with purpose, live with passion</p>
+                </div>
+                <div class="card-content">
+                    <div class="calendar-header">
+                        <button class="calendar-nav"><i class="fas fa-chevron-left"></i></button>
+                        <h3>December 2024</h3>
+                        <button class="calendar-nav"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="calendar-grid">
+                        <div class="calendar-day-header">S</div>
+                        <div class="calendar-day-header">M</div>
+                        <div class="calendar-day-header">T</div>
+                        <div class="calendar-day-header">W</div>
+                        <div class="calendar-day-header">T</div>
+                        <div class="calendar-day-header">F</div>
+                        <div class="calendar-day-header">S</div>
+                        
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day">1</div>
+                        
+                        <div class="calendar-day">2</div>
+                        <div class="calendar-day workout-day">3</div>
+                        <div class="calendar-day">4</div>
+                        <div class="calendar-day checkup-day">5</div>
+                        <div class="calendar-day">6</div>
+                        <div class="calendar-day workout-day">7</div>
+                        <div class="calendar-day">8</div>
+                        
+                        <div class="calendar-day">9</div>
+                        <div class="calendar-day">10</div>
+                        <div class="calendar-day workout-day">11</div>
+                        <div class="calendar-day">12</div>
+                        <div class="calendar-day">13</div>
+                        <div class="calendar-day">14</div>
+                        <div class="calendar-day">15</div>
+                        
+                        <div class="calendar-day">16</div>
+                        <div class="calendar-day workout-day">17</div>
+                        <div class="calendar-day">18</div>
+                        <div class="calendar-day">19</div>
+                        <div class="calendar-day">20</div>
+                        <div class="calendar-day">21</div>
+                        <div class="calendar-day">22</div>
+                        
+                        <div class="calendar-day">23</div>
+                        <div class="calendar-day">24</div>
+                        <div class="calendar-day">25</div>
+                        <div class="calendar-day">26</div>
+                        <div class="calendar-day">27</div>
+                        <div class="calendar-day">28</div>
+                        <div class="calendar-day">29</div>
+                        
+                        <div class="calendar-day">30</div>
+                        <div class="calendar-day">31</div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                        <div class="calendar-day"></div>
+                    </div>
+                    <div class="calendar-legend">
+                        <div class="legend-item">
+                            <span class="legend-dot workout"></span>
+                            <span>Workout</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot checkup"></span>
+                            <span>Check-up</span>
+                        </div>
+                    </div>
+                    <div class="planner-quote">
+                        <p>"The future belongs to those who believe in the beauty of their dreams."</p>
+                    
+                    </div>
+                </div>
+            </section>
+
+            <!-- BMI Indicator -->
+            <section class="card bmi-indicator">
+                <div class="card-header">
+                    <h2><i class="fas fa-weight"></i> BMI Indicator</h2>
+                    <p class="section-subtitle">Know your numbers, own your health</p>
+                </div>
+                <div class="card-content">
+                    <div class="bmi-form">
+                        <div class="input-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="number" id="height" placeholder="170" value="170">
+                        </div>
+                        <div class="input-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="number" id="weight" placeholder="65" value="65">
+                        </div>
+                        <button class="calculate-btn">Calculate BMI</button>
+                    </div>
+                    <div class="bmi-result">
+                        <div class="bmi-value">22.5</div>
+                        <div class="bmi-category healthy">Healthy Weight</div>
+                        <div class="bmi-scale">
+                            <div class="scale-item underweight">Underweight</div>
+                            <div class="scale-item healthy active">Healthy</div>
+                            <div class="scale-item overweight">Overweight</div>
+                            <div class="scale-item obese">Obese</div>
+                        </div>
+                    </div>
+                    <div class="bmi-quote">
+                        <p>"Health is not about the weight you lose, but about the life you gain."</p>
+                      
+                    </div>
+                </div>
+            </section>
+
+            <!-- Daily Motivation Card -->
+            <section class="card motivation-card">
+                <div class="card-header">
+                    <h2><i class="fas fa-heart"></i> Daily Motivation</h2>
+                    <p class="section-subtitle">Ignite your spirit, unleash your potential</p>
+                </div>
+                <div class="card-content">
+                    <div class="quote-container">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="motivational-quote">"The only bad workout is the one that didn't happen. Every step forward is progress."</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="health-tip">
+                        <h4>💡 Wisdom of the Day</h4>
+                        <p>Drink a glass of water first thing in the morning to kickstart your metabolism and hydrate your body after sleep.</p>
+                    </div>
+                    <div class="mood-tracker">
+                        <h4>How is your aura today?</h4>
+                        <div class="mood-options">
+                            <button class="mood-btn active">😊</button>
+                            <button class="mood-btn">😐</button>
+                            <button class="mood-btn">😔</button>
+                            <button class="mood-btn">😤</button>
+                        </div>
+                    </div>
+                    <div class="motivation-quote">
+                        <p>"The mind and body are not separate. What affects one, affects the other."</p>
+             
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-quote">
+                    <p>"Take care of your body. It's the only place you have to live."</p>
+          
+                </div>
+                <p class="copyright">&copy; 2024 FitAura. Nurturing wellness, one day at a time.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
